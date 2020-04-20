@@ -186,11 +186,11 @@ end
 
 #uses player_with_biggest to find what player has the biggest shoes, then returns their rebounds
 def big_shoe_rebounds
-  return player_with_biggest(:shoe)[:rebounds]
+  player_with_biggest(:shoe)[:rebounds]
 end
 
 def most_points_scored
- return player_with_biggest(:points)[:player_name]
+ player_with_biggest(:points)[:player_name]
 end
 
 #totals the points of a particular team
